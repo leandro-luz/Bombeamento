@@ -1,0 +1,12 @@
+o pyinstaller deve estar instalado no venv
+
+(--onefile = quero que as bibliotecas se tornem um unico aquivo executavel)
+(-w = existe telas interaveis)
+(-i xxx = xxx é nome do arquivo de icone)
+(yyy.py nome do arquivo python)
+
+pyinstaller --onefile -w -i app_ico.ico app.py
+
+(a pasta build pode excluir)
+(o arquivo .spec pode excluir)
+(dentro da pasta dist o arquivo .exe é o arquivo executável)
